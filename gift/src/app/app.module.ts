@@ -18,6 +18,7 @@ import { WorkComponent } from './work/work.component';
 import { FriendComponent } from './friend/friend.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
 import { BodyComponent } from './body/body.component';
+import { SublevelMenuComponent } from './sidenav/sublevel-menu/sublevel-menu.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { BodyComponent } from './body/body.component';
     WorkComponent,
     FriendComponent,
     SidenavComponent,
-    BodyComponent
+    BodyComponent,
+    SublevelMenuComponent
   ],
   imports: [
     BrowserModule,
