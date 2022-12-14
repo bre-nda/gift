@@ -16,6 +16,8 @@ import { SessionsComponent } from './sessions/sessions.component';
 import { SettingsComponent } from './settings/settings.component';
 import { WorkComponent } from './work/work.component';
 import { FriendComponent } from './friend/friend.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
+import { BodyComponent } from './body/body.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { FriendComponent } from './friend/friend.component';
     SessionsComponent,
     SettingsComponent,
     WorkComponent,
-    FriendComponent
+    FriendComponent,
+    SidenavComponent,
+    BodyComponent
   ],
   imports: [
     BrowserModule,
